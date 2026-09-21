@@ -21,7 +21,7 @@ document.head.appendChild(navStyle);
 document.querySelectorAll('a[href*="#commercial"]').forEach(link=>link.remove());
 const commercialSection=document.getElementById('commercial');if(commercialSection)commercialSection.remove();
 
-/* Ahmed's direct contact options, available from every page. */
+/* Painting enquiries, available from every page. */
 const contactStyle=document.createElement('style');
 contactStyle.textContent=`
 .contact-dock{position:fixed;z-index:4000;right:18px;bottom:18px;display:flex;gap:9px;filter:drop-shadow(0 8px 22px rgba(0,0,0,.24))}
@@ -31,8 +31,8 @@ contactStyle.textContent=`
 @media(max-width:620px){body{padding-bottom:72px}.contact-dock{left:10px;right:10px;bottom:10px}.contact-dock a{flex:1;padding:0 10px}.contact-dock .call-link{flex:.78}}
 `;
 document.head.appendChild(contactStyle);
-const dock=document.createElement('div');dock.className='contact-dock';dock.setAttribute('aria-label','Contact Ahmed');
-dock.innerHTML='<a class="whatsapp-link" href="https://wa.me/353857296169?text=Hello%20Ahmed%2C%20I%27m%20looking%20for%20a%20painting%20quote." target="_blank" rel="noopener" aria-label="WhatsApp Ahmed on 085 729 6169">WhatsApp Ahmed</a><a class="call-link" href="tel:+353857296169" aria-label="Call Ahmed on 085 729 6169">Call 085 729 6169</a>';
+const dock=document.createElement('div');dock.className='contact-dock';dock.setAttribute('aria-label','Painting enquiries');
+dock.innerHTML='<a class="whatsapp-link" href="https://wa.me/353868140362?text=Hello%2C%20I%27m%20looking%20for%20a%20painter%20in%20Limerick%20and%20would%20like%20a%20quote." target="_blank" rel="noopener" aria-label="WhatsApp about a painting quote on 086 814 0362">WhatsApp for quote</a><a class="call-link" href="tel:+353868140362" aria-label="Call about painting on 086 814 0362">Call 086 814 0362</a>';
 document.body.appendChild(dock);
 
 /* Whole-page language access through Google Translate. */
