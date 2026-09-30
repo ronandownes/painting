@@ -1,19 +1,16 @@
-# Painter
+# Ronan — Painting
 
-Simple multilingual painting and decorating website for Ahmed.
+Simple personal website for small painting jobs in the Limerick area.
 
-## Languages
-- English
-- Arabic
-- Russian
-- Polish
-- Lithuanian
-- Romanian / Moldovan
+## Public pages
+- Home
+- About me
+- What I do
+- Work
+- Contact
 
-Arabic automatically switches the page to right-to-left layout. The browser language is used on first visit where supported, and visitors can always change language manually.
+## Contact
+The website uses WhatsApp messages as the main contact route.
 
 ## GitHub Pages
 Publish from the `main` branch, root (`/`).
-
-## Contact
-The website currently uses **086 814 0362** for phone and WhatsApp enquiries.
