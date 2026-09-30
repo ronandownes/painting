@@ -15,5 +15,5 @@ Arabic automatically switches the page to right-to-left layout. The browser lang
 ## GitHub Pages
 Publish from the `main` branch, root (`/`).
 
-## To finish
-Replace the contact placeholder in `index.html` with Ahmed's phone / WhatsApp number.
+## Contact
+The website currently uses **086 814 0362** for phone and WhatsApp enquiries.
